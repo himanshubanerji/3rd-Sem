@@ -1,6 +1,8 @@
 { pkgs }: {
 	deps = [
-		pkgs.verilog
+  pkgs.run
+  pkgs.vimHugeX
+  pkgs.verilog
 		pkgs.gtkwave
         pkgs.wmctrl
         pkgs.gnome.adwaita-icon-theme
