@@ -1,3 +1,6 @@
 run = ["sh", "run.sh"]
 entrypoint = "testbench.v"
 hidden = ["run.sh", "build"]
+
+[nix]
+channel = "stable-21_11"
