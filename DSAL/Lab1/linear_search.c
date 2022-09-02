@@ -1,7 +1,6 @@
 //program to find an integer element using linear search
 
 #include <stdio.h>
-#include <stdbool.h>
 int Lsearch(int arr[], int n, int k)
 {
     int check = -1;
