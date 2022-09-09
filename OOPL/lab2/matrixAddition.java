@@ -1,7 +1,7 @@
 //program to find the addition of two matrices and display the resultant matrix
 
 import java.util.Scanner;
-class matrixAddtion {
+class matrixAddition {
 	public static void main(String[] args ) {
 		Scanner sc = new Scanner(System.in);
 

@@ -1,6 +1,8 @@
 { pkgs }: {
 	deps = [
+  pkgs.fetchutils
   pkgs.run
+  pkgs.graalvm17-ce
   pkgs.vimHugeX
   pkgs.verilog
 		pkgs.gtkwave
