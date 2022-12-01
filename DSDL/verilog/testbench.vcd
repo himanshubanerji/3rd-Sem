@@ -1,0 +1,74 @@
+$date
+	Thu Dec  1 06:21:43 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module testbench $end
+$var wire 1 ! f $end
+$var reg 5 " a [4:0] $end
+$scope module q1 $end
+$var wire 5 # a [4:0] $end
+$var wire 1 ! f $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx0000 #
+bx0000 "
+0!
+$end
+#20
+1!
+bx1000 "
+bx1000 #
+#40
+bx0100 "
+bx0100 #
+#60
+bx1100 "
+bx1100 #
+#80
+bx0010 "
+bx0010 #
+#100
+0!
+bx1010 "
+bx1010 #
+#120
+bx0110 "
+bx0110 #
+#140
+bx1110 "
+bx1110 #
+#160
+bx0001 "
+bx0001 #
+#180
+1!
+bx1001 "
+bx1001 #
+#200
+bx0101 "
+bx0101 #
+#220
+bx1101 "
+bx1101 #
+#240
+bx0011 "
+bx0011 #
+#260
+0!
+bx1011 "
+bx1011 #
+#280
+bx0111 "
+bx0111 #
+#300
+bx1111 "
+bx1111 #
+#320
